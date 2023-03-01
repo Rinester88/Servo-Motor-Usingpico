@@ -60,7 +60,7 @@ void reconnect() {
 
 void setup()
 {
-  s1.attach(9);
+  myservo.attach(9);
   Ethernet.init(17);  // WIZnet W5100S-EVB-Pico W5500-EVB-Pico W6100-EVB-Pico
   
   Serial.begin(9600);
